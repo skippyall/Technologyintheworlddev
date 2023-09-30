@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "The better way"
+  ],
+  "tasks": {
+    "#minecraft:logs": {
+      "block": "#minecraft:logs_that_burn",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Right click a log! Click me for more information!"
+    },
+    "description": [
+      "This modpack doesn't allow you to break blocks that will drop nothing. And no tree punching!"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -150,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:oak_log",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "I can't break it!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

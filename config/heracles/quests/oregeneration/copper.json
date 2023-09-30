@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "l": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:chocolate_bucket"
+    },
+    "scor": {
+      "type": "heracles:item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "item": "create:scoria"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Click me for the Copper recipe!"
+    },
+    "description": [
+      "Copper is made by crushing Scoria. Which can be obtained from a Cobblestone Generator with Chocolate instead of Water."
+    ],
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          0,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": "minecraft:copper_ingot",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper is Chocolate!"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": false,
+    "unlockNotification": false
+  }
+}

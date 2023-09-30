@@ -1,0 +1,10 @@
+{
+  "killVillagers": false,
+  "disableWanderingTrader": false,
+  "blockTrading": true,
+  "spareExperiencedVillagers": true,
+  "breeding": true,
+  "disableVillages": false,
+  "disableZombies": false,
+  "curableZombies": true
+}

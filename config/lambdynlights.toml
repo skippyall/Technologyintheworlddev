@@ -1,0 +1,108 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				bee = true
+				axolotl = true
+				arrow = true
+				cow = true
+				spawner_minecart = true
+				pig = true
+				allay = true
+				skeleton = true
+				llama = true
+				bat = true
+				area_effect_cloud = true
+				zombie = true
+				armor_stand = true
+				drowned = true
+				sheep = true
+				player = true
+				item = true
+				wolf = true
+				villager = true
+				wandering_trader = true
+				zombie_villager = true
+				horse = true
+				painting = true
+				glow_squid = true
+				witch = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
+				salmon = true
+				parrot = true
+				ocelot = true
+				rabbit = true
+				chest_minecart = true
+				slime = true
+				experience_orb = true
+				goat = true
+				iron_golem = true
+				cat = true
+				donkey = true
+				phantom = true
+				blaze = true
+				small_fireball = true
+				piglin = true
+				hoglin = true
+				zombified_piglin = true
+				strider = true
+				ghast = true
+				dolphin = true
+				trader_llama = true
+				trident = true
+				turtle = true
+				potion = true
+				stray = true
+				boat = true
+				lightning_bolt = true
+				snow_golem = true
+				snowball = true
+				tropical_fish = true
+				camel = true
+				pufferfish = true
+				fishing_bobber = true
+				evoker = true
+				vex = true
+				evoker_fangs = true
+				pillager = true
+				vindicator = true
+				item_frame = true
+
+			[light_sources.settings.entities.immersive_aircraft]
+				airship = true
+				gyrodyne = true
+				quadrocopter = true
+				biplane = true
+
+			[light_sources.settings.entities.railways]
+				conductor = true
+
+			[light_sources.settings.entities.create]
+				gantry_contraption = true
+				super_glue = true
+
