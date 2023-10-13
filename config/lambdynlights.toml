@@ -92,6 +92,9 @@ mode = "fancy"
 				pillager = true
 				vindicator = true
 				item_frame = true
+				fox = true
+				elder_guardian = true
+				tnt_minecart = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				airship = true

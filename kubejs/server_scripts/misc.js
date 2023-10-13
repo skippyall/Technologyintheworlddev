@@ -25,4 +25,30 @@ ServerEvents.recipes(event => {
         "C":"createaddition:copper_spool",
         "I":"minecraft:iron_block"
     })
+    
+    event.shaped("minecraft:campfire", [
+        " F ",
+        "SCS",
+        "LLL"
+    ],{
+        "F":"notreepunching:fire_starter",
+        "S":"minecraft:stick",
+        "C":"#minecraft:coals",
+        "L":"#minecraft:logs"
+    })
+    
+    event.remove({"mod":"butonmoneymod"})
+})
+
+ServerEvents.tags("item",event => {
+    event.add("c:tools/axes","notreepunching:flint_axe")
+})
+
+ServerEvents.entityLootTables(event => {
+    event.addEntity("minecraft:vindicator",table => {})
+    event.addEntity("minecraft:evoker",table => {
+        table.addPool(pool=>{
+            pool.addItem("minecraft:totem_of_undying")
+        })
+    })
 })

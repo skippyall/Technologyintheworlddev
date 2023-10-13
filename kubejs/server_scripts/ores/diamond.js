@@ -61,7 +61,7 @@ ServerEvents.recipes(event=>{
         }
     })
     createRecipe(event,"create:crushing",[Item.of("kubejs:unrefined_diamond")],
-        [{"item":"kubejs:dirty_diamond","chance":0.1}],{})
+        [{"item":"kubejs:dirty_diamond","chance":0.1}],{"processingTime": 50})
     createRecipe(event,"create:splashing",[Item.of("kubejs:dirty_diamond")],
         [Item.of("minecraft:diamond")],{})
 })

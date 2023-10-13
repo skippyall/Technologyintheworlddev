@@ -17,10 +17,10 @@
   "rewards": {},
   "display": {
     "subtitle": {
-      "translate": "Obtain Gold Nuggets by washing Red Sand!"
+      "translate": "Click me for the Gold recipe!"
     },
     "description": [
-      ""
+      "Gold is made by washing Red Sand, which can be obtained by washing Granite or Terracotta."
     ],
     "groups": {
       "Ore Generation": {

@@ -1,23 +1,25 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "The better way"
+  ],
   "tasks": {
-    "magnet": {
+    "fdf": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "magnets:magnet_basic"
+      "item": "notreepunching:plant_fiber"
     },
-    "fd": {
+    "f": {
       "type": "heracles:item",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "item": "minecraft:iron_nugget"
+      "item": "notreepunching:flint_knife"
     }
   },
   "rewards": {
-    "butonmoneymod:one_euro": {
+    "ef": {
       "item": {
-        "id": "butonmoneymod:one_euro",
+        "id": "butonmoneymod:fifty_ecents",
         "count": 1
       },
       "type": "heracles:item"
@@ -25,26 +27,26 @@
   },
   "display": {
     "subtitle": {
-      "translate": "Click me for the Iron recipe!"
+      "translate": "Make a Knife and mine Grass with it!"
     },
     "description": [
       ""
     ],
     "groups": {
-      "Ore Generation": {
+      "Main": {
         "position": [
           0,
-          100
+          0
         ]
       }
     },
     "icon": {
-      "item": "minecraft:iron_ingot",
+      "item": "notreepunching:flint_knife",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Magnetism"
+      "translate": "The new Wooden Pickaxe"
     }
   },
   "settings": {

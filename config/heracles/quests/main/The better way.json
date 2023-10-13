@@ -10,10 +10,18 @@
       "item": "minecraft:flint"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "l": {
+      "item": {
+        "id": "butonmoneymod:fifty_ecents",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
-      "translate": "Obtain flint, the new Material for Tools! See the advancement."
+      "translate": "Obtain flint, the new Material for Tools! See the advancements."
     },
     "description": [
       ""

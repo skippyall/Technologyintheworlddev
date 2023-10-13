@@ -102,6 +102,17 @@
 	#Range: > 1
 	stationaryUniversalScanMaxCostRadius = 24
 [integrations]
+	[integrations.powah]
+		#Enables reactor integration
+		enableReactor = true
+		#Enables generators integration
+		enableGenerator = true
+		#Enabled energy integration
+		enableEnergy = true
+		#Enables redstone control integration
+		enableRedstoneControl = true
+		#Enables ender cell integration
+		enableEnderCell = true
 	[integrations.team_reborn_energy]
 		#Enables energy storage integration
 		enableEnergyStorage = true
