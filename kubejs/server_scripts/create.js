@@ -29,4 +29,10 @@ ServerEvents.recipes(event => {
         },
         "result": Item.of("create_jetpack:jetpack")
     })
+    event.custom({
+        "type": "createaddition:charging",
+        "energy": 1800,
+        "input": Item.of("minecraft:iron_nugget"),
+        "result": Item.of("create:experience_nugget")
+    })
 })
