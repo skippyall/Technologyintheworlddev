@@ -95,17 +95,97 @@ mode = "fancy"
 				fox = true
 				elder_guardian = true
 				tnt_minecart = true
+				block_display = true
+				cave_spider = true
+				chest_boat = true
+				cod = true
+				command_block_minecart = true
+				dragon_fireball = true
+				egg = true
+				end_crystal = true
+				ender_dragon = true
+				ender_pearl = true
+				endermite = true
+				experience_bottle = true
+				eye_of_ender = true
+				falling_block = true
+				firework_rocket = true
+				frog = true
+				furnace_minecart = true
+				giant = true
+				guardian = true
+				hopper_minecart = true
+				husk = true
+				illusioner = true
+				interaction = true
+				item_display = true
+				fireball = true
+				leash_knot = true
+				llama_spit = true
+				magma_cube = true
+				marker = true
+				minecart = true
+				mooshroom = true
+				mule = true
+				panda = true
+				piglin_brute = true
+				polar_bear = true
+				ravager = true
+				shulker = true
+				shulker_bullet = true
+				silverfish = true
+				skeleton_horse = true
+				sniffer = true
+				spectral_arrow = true
+				tadpole = true
+				text_display = true
+				tnt = true
+				warden = true
+				wither = true
+				wither_skeleton = true
+				wither_skull = true
+				zoglin = true
+				zombie_horse = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				airship = true
 				gyrodyne = true
 				quadrocopter = true
 				biplane = true
+				cargo_airship = true
 
 			[light_sources.settings.entities.railways]
 				conductor = true
+				benchcart = true
+				jukeboxcart = true
 
 			[light_sources.settings.entities.create]
 				gantry_contraption = true
 				super_glue = true
+				contraption = true
+				stationary_contraption = true
+				carriage_contraption = true
+				crafting_blueprint = true
+				potato_projectile = true
+				seat = true
+
+			[light_sources.settings.entities.bclib]
+				chair = true
+
+			[light_sources.settings.entities.betterend]
+				dragonfly = true
+				end_slime = true
+				end_fish = true
+				shadow_walker = true
+				cubozoa = true
+				silk_moth = true
+
+			[light_sources.settings.entities.farmersdelight]
+				rotten_tomato = true
+
+			[light_sources.settings.entities.turtlematic]
+				shooted_item = true
+
+			[light_sources.settings.entities.ae2]
+				tiny_tnt_primed = true
 
